@@ -1,0 +1,20 @@
+<plugin>
+    <rawname>changepassword</rawname>
+    <name>Change Password</name>
+    <version>1.0.1</version>
+    <description>This plugin lets users change their FOP2 password. It works only with FOP2 Manager based configurations and FOP 2.or higher.</description>
+    <fop2minversion>023000</fop2minversion>
+    <price>0</price>
+    <params>
+        <param>
+            <name>force_change_if_password_is_equal_to_extension</name>
+            <type>bool</type>
+            <multi>no</multi>
+        </param>
+    </params>
+    <changelog>
+        *1.0.2*   Add option to force change of password if its the same as the extension number
+        *1.0.1*   Fix for multi tenant setups
+        *1.0.0*   Stable release
+    </changelog>
+</plugin>

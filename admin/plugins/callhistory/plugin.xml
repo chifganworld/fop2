@@ -1,0 +1,17 @@
+<plugin>
+    <rawname>callhistory</rawname>
+    <name>Call History</name>
+    <version>1.0.5</version>
+    <description>This plugin will show the CDR history for your extension right in the main panel view, without the need to opening up the phonebook. Good for having that information right in front with no extra clicks.</description>
+    <price>0</price>
+    <fop2minversion>022900</fop2minversion>
+    <changelog>
+        *1.0.6*   Fix shown dialed number again, update mirta version to match up latest changes
+        *1.0.5*   Fix to show dialer number instead of callerid on outbound calls
+        *1.0.4*   Update for new gridstack library compatibility
+        *1.0.3*   Fix 2.30 automatic refresh
+        *1.0.2*   Fix 2.30 version that showed both inbound/outbound on inbound tab
+        *1.0.1*   In outbound show dialed numbrer instead of callerid
+        *1.0.0*   Stable release
+    </changelog>
+</plugin>

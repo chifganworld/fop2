@@ -1,0 +1,1 @@
+lang['setpresence']='Modificar Estado';

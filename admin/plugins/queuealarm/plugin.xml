@@ -1,0 +1,53 @@
+<plugin>
+    <rawname>queuealarm</rawname>
+    <name>Queue Alarm</name>
+    <version>1.0.2</version>
+    <description>This plugin will highlight the waiting call timer of queue calls when they exceed a configurable treshold in seconds. This value can be set globally or per queue.</description>
+    <description-es_ES>Este complemento resaltará el contador de tiempo en llamados en espera que excedan un tiempo límite configurable. Ese valor puede ser global o individual por cola.</description-es_ES>
+    <price>0</price>
+    <global>0</global>
+    <params>
+        <param>
+            <name>seconds_to_alarm</name>
+            <type>integer</type>
+            <multi>yes</multi>
+            <default>1</default>
+       </param>
+       <param>
+            <name>enable_sound</name>
+            <type>bool</type>
+            <multi>yes</multi>
+            <default>0</default>
+       </param>
+       <param>
+            <name>flash_screen</name>
+            <type>bool</type>
+            <multi>yes</multi>
+            <default>0</default>
+       </param>
+       <param>
+            <name>use_sla_time</name>
+            <type>bool</type>
+            <multi>no</multi>
+            <default>0</default>
+        </param>
+        <param>
+            <name>enable_desktop_notifications</name>
+            <type>bool</type>
+            <multi>no</multi>
+            <default>0</default>
+        </param>
+        <param>
+            <name>notification_message</name>
+            <type>string</type>
+            <multi>yes</multi>
+            <default>Queue #{queuename} requires attention</default>
+        </param>
+ 
+    </params>
+    <changelog>
+        *1.0.2*   Add Desktop notification and add option to toggle screen flash
+        *1.0.1*   Toggle use of configured SLA for queue as alarm. Toggle sound.
+        *1.0.0*   Stable release
+    </changelog>
+</plugin>

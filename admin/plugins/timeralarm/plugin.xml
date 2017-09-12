@@ -1,0 +1,31 @@
+<plugin>
+    <rawname>timeralarm</rawname>
+    <name>Timer Alarm</name>
+    <version>1.0.0</version>
+    <description>This plugin will highlight extension buttons from yellow to red when the call timer exceeds certain number (defined in seconds), the threshold is the percentage in time to reach the alarm condition to start it in yellow (defined in percentage).  </description>
+    <price>0</price>
+    <global>0</global>
+    <params>
+        <param>
+            <name>seconds_to_alarm</name>
+            <type>integer</type>
+            <multi>no</multi>
+            <default>60</default>
+        </param>
+        <param>
+            <name>seconds_to_alarm_idle</name>
+            <type>integer</type>
+            <multi>no</multi>
+            <default>300</default>
+        </param>
+       <param>
+            <name>alarm_threshold</name>
+            <type>integer</type>
+            <multi>no</multi>
+            <default>75</default>
+        </param>
+    </params>
+    <changelog>
+        *1.0.0*   Stable release
+    </changelog>
+</plugin>

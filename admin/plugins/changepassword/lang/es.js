@@ -1,0 +1,9 @@
+lang['password_short']    = 'La clave es muy corta';
+lang['password_empty']    = 'La clave no puede estar vacía';
+lang['password_mismatch'] = 'Las claves no coinciden';
+lang['password_notsame']  = 'La clave no puede ser la misma. Por favor elija otra';
+lang['change_password']   = 'Cambiar Clave';
+lang['current_password']  = 'Clave Actual:';
+lang['new_password']      = 'Clave Nueva:';
+lang['verify_newpassword']= 'Verificar Clave Nueva:';
+lang['bad_credentials']='Datos incorrectos';

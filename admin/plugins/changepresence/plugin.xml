@@ -1,0 +1,14 @@
+<plugin>
+    <rawname>changepresence</rawname>
+    <name>Change Presence Menu</name>
+    <version>1.0.3</version>
+    <description>Adds an action submenu to change any extension presence state. The user needs the 'presencemanager' or 'all' permission to be set.</description>
+    <description-es_ES>Agrega una acción de submenu para cambiar el estado de cualquier extensión. El usuario necesita el permiso 'presencemanager' o 'all' para poder activarlo.</description-es_ES>
+    <additionalperm>presencemanager</additionalperm>
+    <changelog>
+        *1.0.3*   Remove warning when disablepresenceother and change icon to new layout
+        *1.0.2*   Allows selection of 'other' presence state
+        *1.0.1*   Use base64 encoding
+        *1.0.0*   Stable release
+    </changelog>
+</plugin>

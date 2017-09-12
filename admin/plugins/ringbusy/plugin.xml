@@ -1,0 +1,8 @@
+<plugin>
+    <rawname>ringbusy</rawname>
+    <name>Mark buttons as busy when ringing</name>
+    <version>1.0.0</version>
+    <description>This plugin will show a button as busy when a line is in ringing state.</description>
+    <description-es_ES>Este plugin mostrará un botón como ocupado cuando tenga alguna línea en estado Ringing</description-es_ES>
+    <global>0</global>
+</plugin>

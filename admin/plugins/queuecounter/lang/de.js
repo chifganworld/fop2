@@ -1,0 +1,1 @@
+lang['queuecallcounter'] = 'Wartende Anrufer';

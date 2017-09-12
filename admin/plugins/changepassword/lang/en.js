@@ -1,0 +1,9 @@
+lang['password_empty']    = 'Password cannot be empty';
+lang['password_short']    = 'Password is too short';
+lang['password_mismatch'] = 'Password Mismatch';
+lang['password_notsame']  = 'Password cannot be the same. Plase chose another';
+lang['change_password']   = 'Change Password';
+lang['current_password']  = 'Current Password:';
+lang['new_password']      = 'New Password:';
+lang['verify_newpassword']= 'Verify New Password:';
+lang['bad_credentials']   ='Bad Credentials';

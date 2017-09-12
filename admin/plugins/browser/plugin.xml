@@ -1,0 +1,31 @@
+<plugin>
+    <rawname>browser</rawname>
+    <name>Mini Browser</name>
+    <version>1.0.4</version>
+    <description>This plugin will embed an iframe with basic browsing capabilities, limited with same domain restrictions modern browsers impose. It will serve however to show some basic web pages or integrate with custom popups. If the browser is present, popup urls will be opened inside it (and not on a different TAB). This can be used for example, to show scripts on Answering services, down to open a customer record/information from a CRM, right in the FOP2 display.</description>
+    <fop2minversion>023000</fop2minversion>
+    <price>0</price>
+    <additionalperm>browser</additionalperm>
+    <changelog>
+        *1.0.4*   Allows to use #{EXTEN} variable in opening URL
+        *1.0.3*   Update for new gridstack library compatibility
+        *1.0.2*   Add option to hide browser control buttons and url bar
+        *1.0.1*   Add multiple browser windows support. Fix initial URL
+        *1.0.0*   Stable release
+    </changelog>
+    <params>
+        <param>
+            <name>initial_url</name>
+            <type>text</type>
+            <multi>yes</multi>
+            <default>http://www.google.com/custom?q=</default>
+        </param>
+        <param>
+            <name>show_controls</name>
+            <type>bool</type>
+            <multi>yes</multi>
+            <default>1</default>
+        </param>
+ 
+    </params>
+</plugin>

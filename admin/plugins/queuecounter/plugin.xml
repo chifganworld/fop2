@@ -1,0 +1,50 @@
+<plugin>
+    <rawname>queuecounter</rawname>
+    <name>Queued Calls Counter</name>
+    <version>1.0.6</version>
+    <description>Shows the number of waiting queue calls for all visible queues in one widget, with the option to announce the number of callers waiting in each queue.</description>
+    <description-es_ES>Muestra el número de llamadas en espera en cola, con la opción de anunciar los llamados en espera en cada cola.</description-es_ES>
+    <price>0</price>
+    <params>
+        <param>
+            <name>enable_spoken_announcement</name>
+            <type>integer</type>
+            <multi>no</multi>
+            <default>1</default>
+        </param>
+        <param>
+            <name>enable_failed_spoken_announcement</name>
+            <type>integer</type>
+            <multi>no</multi>
+            <default>1</default>
+        </param>
+        <param>
+            <name>language</name>
+            <type>string</type>
+            <multi>no</multi>
+            <default>en-US</default>
+        </param>
+         <param>
+            <name>announcement_text</name>
+            <type>string</type>
+            <multi>no</multi>
+            <default>There are #{COUNT} callers waiting in queue #{QUEUE}</default>
+        </param>
+        <param>
+            <name>failed_announcement_text</name>
+            <type>string</type>
+            <multi>no</multi>
+            <default>Agent #{AGENT} failed to answer a call from queue #{QUEUE}</default>
+        </param>
+ 
+    </params>
+    <changelog>
+        *1.0.6*   Fixes Count calls waiting in queues in different groups.
+        *1.0.5*   Update for new gridstack library compatibility
+        *1.0.4*   Add charts for 2.30 clients
+        *1.0.3*   Respect queue sound config in FOP2, if muted, do not speak
+        *1.0.2*   Add speech to announce fail to answer events
+        *1.0.1*   Add speech to announce callers waiting in queues
+        *1.0.0*   Stable release
+    </changelog>
+</plugin>
