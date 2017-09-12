@@ -60,7 +60,7 @@ body {
 }
 
 .selected {
-    border: 2px solid #0069ff;
+    border: 2px solid #5867dd;
     background: #f5f9ff;
 }
 
@@ -80,3 +80,10 @@ body {
     top: 20px;
 }
 
+.queuebutton, .ringgroupbutton, .trunkbutton, .conferencebutton, .parkbutton {
+    border: 4px solid #f7f7fa !important;
+}
+
+.aentry, .pentry, .tentry, .centry {
+    background-color: #FBFBFE;
+}
