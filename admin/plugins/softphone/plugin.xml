@@ -1,0 +1,11 @@
+<plugin>
+    <rawname>softphone</rawname>
+    <name>Softphone Plugin</name>
+    <version>0.1</version>
+    <description>This is just a POC module by Stella Telecom</description>
+    <price>0</price>
+    <changelog>
+        *1.0.2* This is just a POC module by Stella Telecom
+    </changelog>
+
+</plugin>
