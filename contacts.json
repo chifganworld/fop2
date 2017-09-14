@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "firstname": "Hyder",
+      "lastname": "Bangash",
+      "company": "Stella Telecom",
+      "phone1": "0800555666",
+      "phone2": "0800555666",
+      "owner": "4788",
+      "private": "no",
+      "picture": "1-picture.png",
+      "email": "hyder.bangash@stellatelecom.com",
+      "address": "Ebene",
+      "context": ""
+    },
+    {
+      "id": 2,
+      "firstname": "Fary",
+      "lastname": "Dilmahomed",
+      "company": "Stella Telecom",
+      "phone1": "0800555666",
+      "phone2": "0800555666",
+      "owner": "4788",
+      "private": "no",
+      "picture": "1-picture.png",
+      "email": "fary.dilmahomed@stellatelecom.com",
+      "address": "Ebene",
+      "context": ""
+    },
+    {
+      "id": 3,
+      "firstname": "Yadesh",
+      "lastname": "Mungroo",
+      "company": "Stella Telecom",
+      "phone1": "0800555666",
+      "phone2": "0800555666",
+      "owner": "4788",
+      "private": "no",
+      "picture": "1-picture.png",
+      "email": "yadesh.mungroo@stellatelecom.com",
+      "address": "Ebene",
+      "context": ""
+    },
+    {
+      "id": 4,
+      "firstname": "Humeira",
+      "lastname": "Diljore",
+      "company": "Stella Telecom",
+      "phone1": "0800555666",
+      "phone2": "0800555666",
+      "owner": "4788",
+      "private": "no",
+      "picture": "1-picture.png",
+      "email": "humeira.diljore@stellatelecom.com",
+      "address": "Ebene",
+      "context": ""
+    }
+  ]
+}
