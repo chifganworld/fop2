@@ -1,0 +1,90 @@
+body {
+    background-color: #f2f3f8 !important;
+}
+
+.boxstylebg {
+    background: #ffffff;
+}
+
+.widget-color > header {
+    border-color: transparent;
+    background: #ffffff;
+}
+
+.widget-color > header h3 {
+    color: #575962;
+    font-size: 18px;
+}
+
+.boxstyle {
+    -webkit-box-shadow: 0px 1px 15px 1px rgba(113, 106, 202, 0.08);
+    box-shadow: 0px 1px 15px 1px rgba(113, 106, 202, 0.08);
+    border: none;
+}
+
+.widget > header {
+    border: none;
+    border-bottom: 1px solid #ebedf2 !important;
+    height: 72px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.widget > header > .widget-icon {
+    color: #b8bece;
+}
+
+.nav-tabs {
+    background: #ffffff;
+}
+
+.framecontent {
+    background: #ffffff;
+}
+
+.widget-ctrls .button-icon {
+    color: #b8bece;
+}
+
+.widgetscroll {
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.free {
+    background: #ffffff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.selected {
+    border: 2px solid #5867dd;
+    background: #f5f9ff;
+}
+
+.free:hover {
+    background: #f1f1f1;
+}
+
+.notregistered {
+    opacity: 0.4;
+}
+
+.widget {
+    background: #ffffff;
+}
+
+.grid-stack > .grid-stack-item > .grid-stack-item-content {
+    top: 20px;
+}
+
+.queuebutton, .ringgroupbutton, .trunkbutton, .conferencebutton, .parkbutton {
+    border: 4px solid #f7f7fa !important;
+}
+
+.aentry, .pentry, .tentry, .centry {
+    background-color: #FBFBFE;
+}
+
