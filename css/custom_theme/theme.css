@@ -1,0 +1,76 @@
+body {
+    background-color: #1D2127;
+    color: #dce2ec;
+}
+
+.navbar-default {
+    background-color: #1D2127;
+    border-color: #dce2ec;
+}
+
+.free {
+    background: #3C4452;
+    color: #f2f2f2;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.linewrapper {
+    border-bottom: transparent;
+}
+
+.extenbutton {
+    border: none;
+    box-shadow: none;
+    padding: 8px 4px 4px 4px;
+}
+
+.widgetscroll {
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/**
+No background distinction between online and offline users
+**/
+.notregistered {
+    opacity: 1;
+}
+
+/*User is online*/
+.presenceNormal {
+    background-image: none;
+    background-color: green;
+    border-radius: 10px;
+    margin-right: 5px;
+
+}
+
+/*User is offline*/
+.free.notregistered .presenceNormal {
+    background-color: #dce2ec;
+}
+
+.boxstylebg {
+    background-color: #222222;
+}
+
+/**
+Widget
+ **/
+.grid-stack-item {
+    margin-top: 30px;
+}
+
+/**
+Main telephone action buttons styling
+**/
+.actionbutton {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+
+}
+
+
