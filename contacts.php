@@ -301,6 +301,7 @@ if($id<>'') {
     <link href="css/alertify.core.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/alertify.bootstrap3.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/contacts.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/custom_theme/theme.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/animate.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
     <script src="js/lodash.min.js" type="text/javascript"></script>
