@@ -33,6 +33,12 @@ Top Navigation bar
     padding: 8px 4px 4px 4px;
     margin: 0;
     border-radius: 0;
+    height: 35px;
+}
+
+.selected {
+    border: 1px solid #6F777D;
+    background-color: #2e353e;
 }
 
 .widgetscroll {
@@ -97,6 +103,34 @@ Widget
 }
 
 /**
+Component: Top Bar (Telephone icons, filter, status)
+ **/
+ul.dropdown-menu.dialpad-dropdown-menu {
+    padding: 0;
+    border-width: 0;
+    background-color: #2e353e;
+}
+
+div.navinputfilter input.form-control, span.twitter-typeahead .form-control {
+    background-color: #242830 !important;
+    border: 1px solid #131415;
+    color: #ffffff;
+}
+
+.tt-dropdown-menu, .tt-menu {
+    background-color: #25282B;
+}
+
+.navinputfilter, .twitter-typeahead {
+    padding-right: 10px;
+}
+
+.form-control:focus {
+    border-color: #0088CC !important;
+    box-shadow: none;
+}
+
+/**
 Main telephone action buttons styling
 **/
 .actionbutton {
@@ -152,16 +186,10 @@ a.sphoneSendButton {
     background: #57BC57 !important;
 }
 
-
 a.sphoneSendButton:hover {
-    text-decoration: none;
-    background-color: #7bcb7b;
+    text-decoration: none !important;
+    background-color: #40a040 !important;
 }
 
-ul.dropdown-menu.dialpad-dropdown-menu {
-    padding: 0;
-    border-width: 0;
-    background-color: #2e353e;
-}
 
 
