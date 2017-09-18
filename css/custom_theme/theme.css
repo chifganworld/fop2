@@ -1,18 +1,26 @@
 body {
-    background-color: #1D2127;
+    background-color: #1A1C1F;
     color: #dce2ec;
 }
 
+/**
+Top Navigation bar
+ */
 .navbar-default {
-    background-color: #1D2127;
-    border-color: #dce2ec;
+    background-color: #23262A;
+    border: 1px solid #131415;
+    padding: 10px;
 }
 
 .free {
-    background: #3C4452;
+    background: #292D31;
     color: #f2f2f2;
     box-shadow: none;
     -webkit-box-shadow: none;
+}
+
+.free:hover {
+    background-color: #2e353e;
 }
 
 .linewrapper {
@@ -23,12 +31,15 @@ body {
     border: none;
     box-shadow: none;
     padding: 8px 4px 4px 4px;
+    margin: 0;
+    border-radius: 0;
 }
 
 .widgetscroll {
-    margin-top: 20px;
+    padding-top: 20px;
     padding-left: 25px;
     padding-right: 25px;
+    background-color: #292D31;
 }
 
 /**
@@ -41,15 +52,18 @@ No background distinction between online and offline users
 /*User is online*/
 .presenceNormal {
     background-image: none;
-    background-color: green;
+    background-color: #00ca56;
+    /*border: 1px solid #14ae46;*/
     border-radius: 10px;
     margin-right: 5px;
+    margin-left: 5px;
 
 }
 
 /*User is offline*/
 .free.notregistered .presenceNormal {
     background-color: #dce2ec;
+    border: none;
 }
 
 .boxstylebg {
@@ -63,6 +77,25 @@ Widget
     margin-top: 30px;
 }
 
+/** Widget header **/
+
+.widget-color > header {
+    /**
+    border: 1px solid #131415 !important;
+    background: #6F777D;
+     */
+
+    border: 1px solid #0088CC !important;
+    background: #0088CC;
+
+    color: #fff;
+}
+
+.boxstyle {
+    border: 1px solid #131415;
+    box-shadow: none;
+}
+
 /**
 Main telephone action buttons styling
 **/
@@ -72,5 +105,29 @@ Main telephone action buttons styling
     box-shadow: none;
 
 }
+
+/**
+Fils d'attente
+ **/
+
+.aentry, .pentry, .tentry, .centry {
+    background-color: transparent;
+    color: #dce2ec;
+
+}
+
+.queuebutton, .ringgroupbutton, .trunkbutton, .conferencebutton, .parkbutton {
+    border: 1px solid #131415;
+}
+
+/**
+Component: keypad
+**/
+
+.sphoneDtmfButton, .sphoneSendButton, #dialpadx.open a {
+    padding: 14px 14px;
+    margin:0px;
+}
+
 
 
