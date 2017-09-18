@@ -125,9 +125,43 @@ Component: keypad
 **/
 
 .sphoneDtmfButton, .sphoneSendButton, #dialpadx.open a {
-    padding: 14px 14px;
-    margin:0px;
+    padding: 14px 20px;
+    margin: 0px;
+    border-radius: 0;
+    box-shadow: none;
+    width: 33.33%;
+    float: left;
+    border: 1px solid #212121;
+    background-color: #2D2D2D;
+    text-shadow: none;
+    color: #d6d6d6;
 }
 
+.sphoneDtmfButton:hover {
+    background-color: #4D4D4D !important;
+    text-decoration: none !important;
+}
+
+#dialpadx {
+    padding-left: 0px;
+}
+
+a.sphoneSendButton {
+    width: 100% !important;
+    color: #d6d6d6 !important;
+    background: #57BC57 !important;
+}
+
+
+a.sphoneSendButton:hover {
+    text-decoration: none;
+    background-color: #7bcb7b;
+}
+
+ul.dropdown-menu.dialpad-dropdown-menu {
+    padding: 0;
+    border-width: 0;
+    background-color: #2e353e;
+}
 
 
