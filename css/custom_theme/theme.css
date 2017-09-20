@@ -112,6 +112,7 @@ ul.dropdown-menu.dialpad-dropdown-menu {
     padding: 0;
     border-width: 0;
     background-color: #2e353e;
+    border: 1px solid #6F777D;
 }
 
 div.navinputfilter input.form-control, span.twitter-typeahead .form-control {
@@ -260,7 +261,7 @@ div.jscroll-inner .avatar {
 
 .c-list {
     margin-top: 25px;
-    background-color: #1A1C1F !important;
+    background-color: #2e353e !important;
 }
 
 /*This is very ugly to target bootstrap directly but theres no other way*/
@@ -286,3 +287,22 @@ span#contactstitle {
     color: #ffffff;
     font-weight: normal;
 }
+
+@font-face {
+    font-family: 'fontello';
+    src: url('./font/fontello.eot?28310045');
+    src: url('./font/fontello.eot?28310045#iefix') format('embedded-opentype'),
+    url('./font/fontello.woff?28310045') format('woff'),
+    url('./font/fontello.ttf?28310045') format('truetype'),
+    url('./font/fontello.svg?28310045#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+li a:nth-child(4) {
+    background-color: black !important;
+}
+
+
+
+
