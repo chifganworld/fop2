@@ -288,21 +288,21 @@ span#contactstitle {
     font-weight: normal;
 }
 
-@font-face {
-    font-family: 'fontello';
-    src: url('./font/fontello.eot?28310045');
-    src: url('./font/fontello.eot?28310045#iefix') format('embedded-opentype'),
-    url('./font/fontello.woff?28310045') format('woff'),
-    url('./font/fontello.ttf?28310045') format('truetype'),
-    url('./font/fontello.svg?28310045#fontello') format('svg');
-    font-weight: normal;
-    font-style: normal;
+.fop2-dial {
+    font-family: Helvetica, Arial, "DejaVu Sans", sans-serif !important;
+    background-image: url('../../images/call.png');
+    background-position: 0 -6px;
+    background-repeat: no-repeat;
+    float: left;
+    height: 62px;
+    width: 62px;
 }
 
-li a:nth-child(4) {
-    background-color: black !important;
+.actionbutton:hover {
+    background-color: transparent !important;
 }
 
-
-
+.fop2-dial:before {
+    content: none !important;
+}
 
