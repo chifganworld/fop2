@@ -123,6 +123,7 @@ div.navinputfilter input.form-control, span.twitter-typeahead .form-control {
 
 .tt-dropdown-menu, .tt-menu {
     background-color: #25282B;
+    border: 1px solid #6F777D;
 }
 
 .navinputfilter, .twitter-typeahead {
@@ -214,7 +215,7 @@ a.sphoneSendButton:hover {
 }
 
 div.h50content ul li.dropdown a:hover {
-    color: #0088CC !important;
+    color: #cfcfcf !important;
 }
 
 /**
@@ -306,3 +307,38 @@ span#contactstitle {
     content: none !important;
 }
 
+/**
+Remove contact menu and Historique des appels from menu
+**/
+li#licdrmenu {
+    display: none !important;
+}
+
+li#licontactsmenu {
+    display: none !important;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-group.open .dropdown-toggle.btn-default {
+    border: transparent !important;
+}
+
+ul.dropdown-menu li.selected {
+    border: none;
+}
+
+div.btn-group bootstrap-select show-tick show-menu-arrow {
+    outline: none;
+}
+
+div.navinputpresence .dropdown-menu {
+    border-width: 1px;
+}
+
+div.navinputpresence div.bootstrap-select .btn-default, div.bootstrap-select .btn-default:hover {
+    /*background-color: #292D31 !important;*/
+    border: 1px solid #6F777D;
+}
+
+.dropdown-menu {
+    5px 0 0 0;
+}

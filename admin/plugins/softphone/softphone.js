@@ -18,17 +18,11 @@ plugins['softphone'] = (function () {
     },
     init: function () {
 
-      if ($('#clock').length == 0) {
-        if ($('#secondtoolbar').length > 0) {
-          // pre 2.30 version
-          $('#secondtoolbar').before('<span id=\'clock\'>&nbsp;</span>');
-        } else {
-          // post 2.30 version
-          $('#custombar').after('<span id=\'clock\' style=\'background-color:red;\' class=\'hidden-sm hidden-xs hidden-md\'>&nbsp;</span>');
-
-          $('#clock').html('<button type="button" class="btn btn-primary">Composer un numéro</button>');
-        }
-      }
+      //  $('#clock').html('<button type="button" class="btn btn-primary">Composer un numéro</button>');
+      // Move 'Appeler' textbox next to the keypad
+      $('div.navinputdial').detach().insertAfter('div.navinputpresence');
+      // Hide Historique des appels from drop down menu
+    //  $('li#licdrmenu').hide();
 
       // Add Widget
 
