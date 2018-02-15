@@ -1,0 +1,14 @@
+<plugin>
+    <rawname>clock</rawname>
+    <name>Clock Plugin</name>
+    <version>1.0.2</version>
+    <description>Shows a clock with the time in the toolbar</description>
+    <price>0</price>
+    <description-es_ES>Muestra un reloj con la hora actual en la barra de herramientas</description-es_ES>
+    <changelog>
+        *1.0.2*   Be sure its visible on 2.30 when there are no action buttons
+        *1.0.1*   Updates for new 2.30 fop2 client
+        *1.0.0*   Stable release
+    </changelog>
+
+</plugin>

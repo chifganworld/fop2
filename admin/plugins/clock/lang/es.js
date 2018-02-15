@@ -1,0 +1,2 @@
+lang['clock']='Reloj';
+

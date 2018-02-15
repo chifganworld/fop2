@@ -1,0 +1,340 @@
+body {
+    background-color: #1A1C1F;
+    color: #dce2ec;
+}
+
+/**
+Top Navigation bar
+ */
+.navbar-default {
+    background-color: #23262A;
+    border: 1px solid #131415;
+    padding: 10px;
+}
+
+.free {
+    background: #292D31;
+    color: #f2f2f2;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.free:hover {
+    background-color: #2e353e;
+}
+
+.linewrapper {
+    border-bottom: transparent;
+}
+
+.extenbutton {
+    border: 1px solid #292D31;
+    box-shadow: none;
+    padding: 8px 4px 4px 4px;
+    margin: 0;
+    border-radius: 0;
+}
+
+.selected {
+    border: 1px solid #6F777D;
+    background-color: #2e353e;
+}
+
+.widgetscroll {
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #292D31;
+}
+
+.tbutton {
+    margin-top: 5px;
+}
+
+/**
+No background distinction between online and offline users
+**/
+.notregistered {
+    opacity: 1;
+}
+
+/*User is online*/
+.presenceNormal {
+    background-image: none;
+    background-color: #00ca56;
+    /*border: 1px solid #14ae46;*/
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+/*User is offline*/
+.free.notregistered .presenceNormal {
+    background-color: #dce2ec;
+    border: none;
+}
+
+.boxstylebg {
+    background-color: #222222;
+}
+
+/**
+Widget
+ **/
+.grid-stack-item {
+    margin-top: 30px;
+}
+
+/** Widget header **/
+
+.widget-color > header {
+    /**
+    border: 1px solid #131415 !important;
+    background: #6F777D;
+     */
+
+    border: 1px solid #0088CC !important;
+    background: #0088CC;
+
+    color: #fff;
+}
+
+.boxstyle {
+    border: 1px solid #131415;
+    box-shadow: none;
+}
+
+/**
+Component: Top Bar (Telephone icons, filter, status)
+ **/
+ul.dropdown-menu.dialpad-dropdown-menu {
+    padding: 0;
+    border-width: 0;
+    background-color: #2e353e;
+    border: 1px solid #6F777D;
+}
+
+div.navinputfilter input.form-control, span.twitter-typeahead .form-control {
+    background-color: #242830 !important;
+    border: 1px solid #6F777D;
+    color: #ffffff;
+}
+
+.tt-dropdown-menu, .tt-menu {
+    background-color: #25282B;
+    border: 1px solid #6F777D;
+}
+
+.navinputfilter, .twitter-typeahead {
+    padding-right: 10px;
+}
+
+.form-control:focus {
+    border-color: #0088CC !important;
+    box-shadow: none;
+}
+
+div.bootstrap-select .btn-default, div.bootstrap-select .btn-default:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn:active, .btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: none !important;
+}
+
+/**
+Main telephone action buttons styling
+**/
+.actionbutton {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.actionbutton:hover {
+    background-color: #2e353e;
+    color: #0088CC;
+}
+
+/**
+Fils d'attente
+ **/
+
+.aentry, .pentry, .tentry, .centry {
+    background-color: transparent;
+    color: #dce2ec;
+
+}
+
+.queuebutton, .ringgroupbutton, .trunkbutton, .conferencebutton, .parkbutton {
+    border: 1px solid #131415;
+    padding: 20px;
+}
+
+/**
+Component: keypad
+**/
+
+.sphoneDtmfButton, .sphoneSendButton, #dialpadx.open a {
+    padding: 14px 20px;
+    margin: 0px;
+    border-radius: 0;
+    box-shadow: none;
+    width: 33.33%;
+    float: left;
+    border: 1px solid #212121;
+    background-color: #2D2D2D;
+    text-shadow: none;
+    color: #d6d6d6;
+}
+
+.sphoneDtmfButton:hover {
+    background-color: #4D4D4D !important;
+    text-decoration: none !important;
+}
+
+#dialpadx {
+    padding-left: 0px;
+}
+
+a.sphoneSendButton {
+    width: 100% !important;
+    color: #d6d6d6 !important;
+    background: #57BC57 !important;
+}
+
+a.sphoneSendButton:hover {
+    text-decoration: none !important;
+    background-color: #40a040 !important;
+}
+
+div.h50content ul li.dropdown a:hover {
+    color: #cfcfcf !important;
+}
+
+/**
+Contacts
+**/
+
+.list-group-item {
+    background-color: #2e353e;
+    color: #dce2ec;
+    border: none;
+
+}
+
+span.fa-map-marker {
+    display: none;
+}
+
+div.jscroll-inner .avatar {
+    width: 40px;
+    height: 40px;
+}
+
+/*div.jscroll-inner {*/
+/*border-left: 3px solid #1D2127;*/
+/*}*/
+
+.editlink {
+    padding-top: 42px;
+}
+
+.nopad {
+    padding-left: 15px;
+}
+
+.name.searchit {
+    font-size: 1em;
+    color: #FFFFFF;
+}
+
+.company.searchit {
+    font-size: 0.75em;
+    color: #C1C1C1;
+}
+
+.c-list {
+    margin-top: 25px;
+    background-color: #2e353e !important;
+}
+
+/*This is very ugly to target bootstrap directly but theres no other way*/
+
+div.col-xs-12.col-sm-12 {
+    background-color: #2e353e;
+
+}
+
+div.col-xs-12.col-sm-12 > div.panel.panel-default {
+    border: none;
+    border-width: 0;
+}
+
+div.c-search button.btn-default, div.c-search button.btn-default:hover {
+    background-color: #0088CC;
+    color: #ffffff;
+    border-color: transparent;
+    margin-right: -1px;
+}
+
+span#contactstitle {
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.fop2-dial {
+    font-family: Helvetica, Arial, "DejaVu Sans", sans-serif !important;
+    background-image: url('../../images/call.png');
+    background-position: 0 -6px;
+    background-repeat: no-repeat;
+    float: left;
+    height: 62px;
+    width: 62px;
+}
+
+.actionbutton:hover {
+    background-color: transparent !important;
+}
+
+.fop2-dial:before {
+    content: none !important;
+}
+
+/**
+Remove contact menu and Historique des appels from menu
+**/
+li#licdrmenu {
+    display: none !important;
+}
+
+li#licontactsmenu {
+    display: none !important;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-group.open .dropdown-toggle.btn-default {
+    border: transparent !important;
+}
+
+ul.dropdown-menu li.selected {
+    border: none;
+}
+
+div.btn-group bootstrap-select show-tick show-menu-arrow {
+    outline: none;
+}
+
+div.navinputpresence .dropdown-menu {
+    border-width: 1px;
+}
+
+div.navinputpresence div.bootstrap-select .btn-default, div.bootstrap-select .btn-default:hover {
+    /*background-color: #292D31 !important;*/
+    border: 1px solid #6F777D;
+}

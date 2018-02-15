@@ -1,0 +1,14 @@
+<plugin>
+    <rawname>busycounter</rawname>
+    <name>Busy Counter</name>
+    <version>1.0.2</version>
+    <description>Shows number of busy extensions.</description>
+    <description-es_ES>Muestra el número de extensiones ocupadas.</description-es_ES>
+    <price>0</price>
+    <changelog>
+        *1.0.2*   Update for new gridstack library compatibility
+        *1.0.1*   Add Chart for 2.30 client
+        *1.0.0*   Stable release
+    </changelog>
+
+</plugin>
